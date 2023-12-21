@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.Write("--- Calcul de la longeur de l'hypothénuse ---" + Environment.NewLine);
+Console.Write("--- Calcul de la longeur de l'hypothénuse ---");
 
 Console.Write("Entrez la longeur du premier coté (en cm) : ");
 double premierCote = Convert.ToDouble(Console.ReadLine());
