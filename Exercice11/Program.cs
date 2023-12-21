@@ -1,22 +1,20 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-Console.Write("Entrez un chiffre/nombre entier : ");
-int nombre = Convert.ToInt32(Console.ReadLine());
+﻿Console.Write("Entrez un chiffre/nombre entier : ");
+int nb = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Entrez le chiffre/nombre diviseur : ");
-int diviseur = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(" ");
-if (nombre > 9)
+int div = Convert.ToInt32(Console.ReadLine());
+
+if (nb > 9)
 {
-    if (nombre % diviseur == 0)
-        Console.WriteLine("Le nombre est divisible par " + diviseur + "\n");
+    if (nb % div == 0)
+        Console.WriteLine("Le nombre est divisible par " + div);
     else
-        Console.WriteLine("Le nombre n'est pas divisible par " + diviseur + "\n");
+        Console.WriteLine("Le nombre n'est pas divisible par " + div);
 }
 else
 {
-    if (nombre % diviseur == 0)
-        Console.WriteLine("Le chiffre est divisible par " + diviseur + "\n");
+    if (nb % div == 0)
+        Console.WriteLine("Le chiffre est divisible par " + div);
     else
-        Console.WriteLine("Le chiffre n'est pas divisible par " + diviseur + "\n");
+        Console.WriteLine("Le chiffre n'est pas divisible par " + div);
 }

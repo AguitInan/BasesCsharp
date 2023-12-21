@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("--- Quelle est la nature du triangle ABC ? --- \n");
+﻿Console.WriteLine("--- Quelle est la nature du triangle ABC ? --- \n");
 Console.Write("Entrez la longeur du segment AB : ");
 double longueurAB = Convert.ToDouble(Console.ReadLine());
 Console.Write("Entrez la longeur du segment BC : ");
@@ -8,7 +7,7 @@ Console.Write("Entrez la longeur du segment CA : ");
 double longueurAC = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine(" ");
-if (longueurAB == longueurBC && longueurAB == longueurAC && longueurBC == longueurAC)
+if (longueurAB == longueurBC && longueurAB == longueurAC && longueurAC == longueurBC)
 {
     Console.WriteLine("Le triangle est équilatéral.\n");
 }
@@ -16,26 +15,24 @@ else
 {
     if (longueurAB == longueurAC)
     {
-        Console.WriteLine("Le triangle est isocèle en A.\n");
+        Console.WriteLine("Le triangle est isocèle en A mais pas équilatéral.");
     }
     else
     {
         if (longueurAB == longueurBC)
         {
-            Console.WriteLine("Le triangle est isocèle en B.\n");
+            Console.WriteLine("Le triangle est isocèle en B mais pas équilatéral.");
         }
         else
         {
-            if (longueurBC == longueurAC)
+            if (longueurAC == longueurBC)
             {
-                Console.WriteLine("Le triangle est isocèle en C.\n");
+                Console.WriteLine("Le triangle est isocèle en C mais pas équilatéral.");
             }
             else
             {
-                Console.WriteLine("Le triangle n'est isocèle ni en A, ni en B, ni en C.\n");
+                Console.WriteLine("Le triangle n'est isocèle ni en A, ni en B, ni en C.");
             }
         }
     }
 }
-Console.WriteLine("Appuyez sur une touche pour fermer le programme...");
-Console.Read();

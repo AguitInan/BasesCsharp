@@ -7,17 +7,17 @@ int salaire = Convert.ToInt32(Console.ReadLine());
 Console.Write("Merci de saisir votre âge : ");
 int age = Convert.ToInt32(Console.ReadLine());
 Console.Write("Merci de saisir le nombre d'années d'ancienneté : ");
-int anciennete = Convert.ToInt32(Console.ReadLine());
+int ancien = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(" ");
 int indemnite = 0;
-if (anciennete <= 10)
+if (ancien <= 10)
 {
-    indemnite += anciennete * salaire / 2;
+    indemnite += ancien * salaire / 2;
 }
 else
 {
     indemnite += 10 * salaire / 2;
-    indemnite += (anciennete - 10) * salaire;
+    indemnite += (ancien - 10) * salaire;
 }
 if (age > 45)
 {
