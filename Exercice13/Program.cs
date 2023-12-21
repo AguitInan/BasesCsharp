@@ -1,32 +1,32 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("--- Quelle est la nature du triangle ABC ? --- \n");
 Console.Write("Entrez la longeur du segment AB : ");
-double longeurAB = Convert.ToDouble(Console.ReadLine());
+double longueurAB = Convert.ToDouble(Console.ReadLine());
 Console.Write("Entrez la longeur du segment BC : ");
-double longeurBC = Convert.ToDouble(Console.ReadLine());
+double longueurBC = Convert.ToDouble(Console.ReadLine());
 Console.Write("Entrez la longeur du segment CA : ");
-double longeurAC = Convert.ToDouble(Console.ReadLine());
+double longueurAC = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine(" ");
-if (longeurAB == longeurBC && longeurAB == longeurAC && longeurBC == longeurAC)
+if (longueurAB == longueurBC && longueurAB == longueurAC && longueurBC == longueurAC)
 {
     Console.WriteLine("Le triangle est équilatéral.\n");
 }
 else
 {
-    if (longeurAB == longeurAC)
+    if (longueurAB == longueurAC)
     {
         Console.WriteLine("Le triangle est isocèle en A.\n");
     }
     else
     {
-        if (longeurAB == longeurBC)
+        if (longueurAB == longueurBC)
         {
             Console.WriteLine("Le triangle est isocèle en B.\n");
         }
         else
         {
-            if (longeurBC == longeurAC)
+            if (longueurBC == longueurAC)
             {
                 Console.WriteLine("Le triangle est isocèle en C.\n");
             }
