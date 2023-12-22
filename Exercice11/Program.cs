@@ -1,7 +1,7 @@
-﻿Console.Write("Entrez un chiffre/nombre entier : ");
+﻿Console.Write("Entrez un chiffre ou nombre entier : ");
 int nb = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Entrez le chiffre/nombre diviseur : ");
+Console.Write("Entrez le chiffre ou nombre diviseur : ");
 int div = Convert.ToInt32(Console.ReadLine());
 
 if (nb > 9)
