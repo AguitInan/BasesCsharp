@@ -37,11 +37,11 @@ class Program
         // Construire le tronc
         for (int i = 0; i < hauteurTronc; i++)
         {
-            for (int j = 0; j < hauteurSapin - 1; j++)
+            for (int j = 1; j < hauteurSapin - 1; j++)
             {
                 Console.Write(" ");
             }
-            Console.WriteLine("#");
+            Console.WriteLine("| |");
         }
     }
 }
