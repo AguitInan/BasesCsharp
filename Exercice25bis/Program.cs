@@ -44,4 +44,7 @@ class Program
             Console.WriteLine("| |");
         }
     }
+
+    //Random aleatoire = new Random();
+    //int nb = aleatoire.Next(1, 51);
 }
