@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice25", "Exercice25\Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice22B1", "Exercice22B1\Exercice22B1.csproj", "{3A3DB9F7-10A2-4570-855F-6D637107822A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice25bis", "Exercice25bis\Exercice25bis.csproj", "{F1335BA5-E744-4228-A067-C56BEB08F964}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice25bis", "Exercice25bis\Exercice25bis.csproj", "{F1335BA5-E744-4228-A067-C56BEB08F964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice25tris", "Exercice25tris\Exercice25tris.csproj", "{E0203B25-0D2B-4E63-A7A0-4B184FF37575}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{F1335BA5-E744-4228-A067-C56BEB08F964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1335BA5-E744-4228-A067-C56BEB08F964}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1335BA5-E744-4228-A067-C56BEB08F964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0203B25-0D2B-4E63-A7A0-4B184FF37575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0203B25-0D2B-4E63-A7A0-4B184FF37575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0203B25-0D2B-4E63-A7A0-4B184FF37575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0203B25-0D2B-4E63-A7A0-4B184FF37575}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
