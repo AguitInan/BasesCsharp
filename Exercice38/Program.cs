@@ -4,7 +4,7 @@ Random aleatoire = new Random();
 string chaine = "";
 int nb = 0;
 int index;
-Console.WriteLine("Affectation des valeures... \n");
+Console.WriteLine("Affectation des valeurs... \n");
 for (int i = 0; i < tab.Length; i++)
     tab[i] = aleatoire.Next(1, 51);
 
